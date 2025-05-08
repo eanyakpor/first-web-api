@@ -1,0 +1,82 @@
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+  }
+  
+  
+  nav {
+	background-color: grey;
+	padding: 10px 0;
+	display: flex;
+	justify-content: flex-end; 
+  }
+  
+  ul {
+	list-style: none; 
+	display: flex;    
+	flex-direction: row; 
+	gap: 20px;         /* optional: spacing between items */
+	margin: 10;
+	padding: 0;
+	float: right;
+  }
+  a {
+	text-decoration: none;
+	color: black;
+  }
+  
+  ul li {
+	font-size: 25px;
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+  }
+.album-grid {
+	display: flex;
+	background-color: green;
+	flex-direction: row;
+	margin: 20px;
+	padding: 10px;
+}
+
+
+.album-card {
+	text-align: center;
+	background-color: grey;
+	width: 150px;
+	line-height: 90px;
+	font-size: 50px;
+	border: 3px solid black;
+	margin: auto;
+	padding: 100px;
+}
+
+.album-card img {
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+}
+.center-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  
+	height: 25vh; /* full page height */
+	text-align: center;
+  }
+  
+  button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	border: 3px solid black;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: red;
+  }
+p {
+	font-size: 35px;
+}

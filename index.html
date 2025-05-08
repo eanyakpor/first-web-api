@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project Api</title>
+	<link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+	<!-- nav bar -->
+	<nav class="navbar">
+		<ul>
+			<li><a href="#album">albums</a></li>
+			<li><a href="#song">song</a></li>
+			<li><a href="#artist">artist</a></li>
+		</ul>
+
+	</nav>
+	<div class="center-container">
+		<h1><strong>Website that uses Spotify API</strong></h1>
+		<p>User's liked albums using Spotify API</p> 
+		<!-- on click call the api-->
+		<button onClick="fetchAlbums()">Load My Albums</button>
+	</div>
+	<section id="album">
+		<div id="album-container" class="album-grid">
+			<div class="album-card">1</div>
+			<div class="album-card">2</div>
+			<div class="album-card">3</div>
+			<div class="album-card">4</div>
+		</div>	
+	</section>
+	<section id="song">
+		<!-- <div>
+			4 5 6 
+		</div> -->
+
+	</section>
+	<section id ="artist">
+		<!-- <div>
+			1 2 3
+		</div> -->
+
+	</section>
+<script type="module" src="./src/script.js"></script>
+</body>
+</html>
